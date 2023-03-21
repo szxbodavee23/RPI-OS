@@ -7,6 +7,9 @@
     background-color: darksalmon;
     font-family: "Sono", Arial, Helvetica, sans-serif;
 }
+body{
+    background-image: linear-gradient(crimson, darksalmon);
+}
 
 .line {
   color:  black;
