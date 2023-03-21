@@ -4,11 +4,14 @@
     margin: 0px;
     padding: 0px;
     text-align: center;
-    background-color: darksalmon;
     font-family: "Sono", Arial, Helvetica, sans-serif;
 }
 body{
     background-image: linear-gradient(crimson, darksalmon);
+}
+
+body {
+    background-image: linear-gradient(to right, #974063, #5e4bab);
 }
 
 .line {
@@ -40,3 +43,9 @@ body{
 .line:hover {
     color: crimson;
 }
+img:hover {
+  -webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+  filter: blur(2px);
+}
+/* Top G */
+
