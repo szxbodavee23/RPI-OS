@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@700&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
     text-align: center;
     background-color: salmon;
+    font-family: "Sono", Arial, Helvetica, sans-serif;
 }
 
