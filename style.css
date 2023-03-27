@@ -43,9 +43,8 @@ body {
 .line:hover {
     color: crimson;
 }
-img:hover {
-  -webkit-filter: blur(2px); /* Chrome, Safari, Opera */
-  filter: blur(2px);
+img:hover{
+  filter: drop-shadow(0 0 0.75rem rgb(240, 133, 165));
 }
 /* Top G */
 
