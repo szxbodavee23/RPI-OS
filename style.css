@@ -44,7 +44,7 @@ body {
 .line:hover {
     color: crimson;
 }
-img:hover{
+.raspberry:hover{
   filter: drop-shadow(0 0 0.75rem rgb(240, 133, 165));
 }
 .ubuntu{
@@ -98,8 +98,35 @@ img:hover{
 button{
   cursor: default;
   align-items: center;
+  margin-bottom: 10px;
 }
-.grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.01); }
+.grow { 
+  transition: all .2s ease-in-out;
+ }
+.grow:hover { 
+  transform: scale(1.01); 
+}
+p{
+  text-align: center;
+  margin-left:10px;
+  margin-right:10px;
+  margin-top: 10px;
+}
+footer{
+  font-size: small;
+  text-align: right;
+  margin: 20px 
+}
+img{
+  margin-bottom: 15px;
+}
+.logo{
+  height: 20vh;
+  display: block;
+  margin: auto;
+}
+.logo:hover{
+  filter: drop-shadow(0 0 0.4rem white);
+}
 /* Top G */
 
