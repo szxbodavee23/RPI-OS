@@ -19,6 +19,7 @@ body {
   cursor: default;
   position: relative;
   transition: all 0.5s ease-in;
+  margin-bottom: 20px;
 }
 
 .line:after {
@@ -46,5 +47,59 @@ body {
 img:hover{
   filter: drop-shadow(0 0 0.75rem rgb(240, 133, 165));
 }
+.ubuntu{
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  margin: 15px;
+  text-align: center;
+  width: 160px;
+}
+.ubuntu:hover{
+  font-size: 20px;
+  color: crimson;
+  transition:font-size 0.5s;
+  -moz-transition:font-size 0.5s; 
+  -webkit-transition:font-size 0.5s; 
+  -o-transition:font-size 0.5s;  
+}
+.ubuntumate{
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  margin: 15px;
+  text-align: center;
+  width: 160px;
+}
+.ubuntumate:hover{
+  font-size: 20px;
+  color: crimson;
+  transition:font-size 0.5s;
+  -moz-transition:font-size 0.5s; 
+  -webkit-transition:font-size 0.5s; 
+  -o-transition:font-size 0.5s;  
+}
+.windowsiot{
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  margin: 15px;
+  text-align: center;
+  width: 160px;
+}
+.windowsiot:hover{
+  font-size: 20px;
+  color: crimson;
+  transition:font-size 0.5s;
+  -moz-transition:font-size 0.5s; 
+  -webkit-transition:font-size 0.5s; 
+  -o-transition:font-size 0.5s;  
+}
+button{
+  cursor: default;
+  align-items: center;
+}
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.01g); }
 /* Top G */
 
