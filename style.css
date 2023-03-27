@@ -100,6 +100,6 @@ button{
   align-items: center;
 }
 .grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.01g); }
+.grow:hover { transform: scale(1.01); }
 /* Top G */
 
