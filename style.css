@@ -7,8 +7,8 @@
     font-family: "Sono", Arial, Helvetica, sans-serif;
 }
 
-
 body {
+    margin-top: 1vw;
     background-image: linear-gradient(to right, #80b2ef, #b569b1);
     margin-top: 1vw;
     user-select: none;
@@ -45,6 +45,12 @@ body {
 
 .line:hover {
     color: crimson;
+}
+
+
+img:hover {
+  -webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+  filter: blur(2px);
 }
 .raspberry:hover{
   filter: drop-shadow(0 0 0.75rem rgb(240, 133, 165));
@@ -130,6 +136,14 @@ img{
 }
 .logo:hover{
   filter: drop-shadow(0 0 0.4rem white);
+
 }
 /* Top G */
+#creators_box {
+  color: rgba(0,0,0,0);
+  transition: all 0.8s ease-in;
+}
 
+#creators_box:hover {
+  color: black;
+}
