@@ -22,6 +22,14 @@ back.addEventListener("click", () => {
     windows_iot_btn.innerHTML = windows_txt;
 });
 
+
+const img = document.querySelector('img');
+img.ondragstart = () => {
+    return false;
+};
+
+
+
 // event listenerek a gombokra
 // ubuntu
 ubuntu_btn.addEventListener("click", () => {

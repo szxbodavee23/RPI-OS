@@ -10,6 +10,10 @@
 body {
     margin-top: 1vw;
     background-image: linear-gradient(to right, #80b2ef, #b569b1);
+    margin-top: 1vw;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
 }
 
 .line {
@@ -123,6 +127,7 @@ footer{
 }
 img{
   margin-bottom: 15px;
+  
 }
 .logo{
   height: 20vh;
@@ -141,4 +146,20 @@ img{
 
 #creators_box:hover {
   color: black;
+}
+.back{
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  margin: 15px;
+  text-align: center;
+  width: 160px;
+}
+.back:hover{
+  font-size: 20px;
+  color: crimson;
+  transition:font-size 0.5s;
+  -moz-transition:font-size 0.5s; 
+  -webkit-transition:font-size 0.5s; 
+  -o-transition:font-size 0.5s;  
 }
