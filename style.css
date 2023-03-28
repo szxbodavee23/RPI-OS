@@ -42,6 +42,12 @@ body {
 .line:hover {
     color: crimson;
 }
+
+
+img:hover {
+  -webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+  filter: blur(2px);
+}
 .raspberry:hover{
   filter: drop-shadow(0 0 0.75rem rgb(240, 133, 165));
 }
@@ -125,9 +131,9 @@ img{
 }
 .logo:hover{
   filter: drop-shadow(0 0 0.4rem white);
+
 }
 /* Top G */
- 
 #creators_box {
   color: rgba(0,0,0,0);
   transition: all 0.8s ease-in;
@@ -136,5 +142,3 @@ img{
 #creators_box:hover {
   color: black;
 }
-
-/* #creators_box: */
