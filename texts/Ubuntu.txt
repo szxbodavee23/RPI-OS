@@ -5,7 +5,6 @@ Az Ubuntu 20.10 telepítése eddig a legegyszerűbb Linux OS telepítés, amit a
 Az asztal:
 
 Ha ismered az Ubuntu asztali környezetet a számítógépeden vagy laptopodon, akkor azt kell mondanom, hogy semmi sem változik, amikor az Ubuntu-t futtatod a Raspberry Pi-n. Valójában, ha főként otthoni irodai munkát végzel (dokumentumok írása, internetezés, videók nézése stb.), akkor akár a számítógépedet is kicserélheted egy Raspberry Pi-re, amely sok pénzt takaríthat meg az energia számládon.
-
 Az Ubuntu 20.10 azonos alkalmazásokat tartalmaz, mint az Ubuntu asztali környezete GNOME-alapokon, és még egy kis pluszt is kap, mivel a Raspberry Pi-hoz készült Ubuntu 20.10 egyedi válogatással rendelkezik az alapértelmezett háttérképek között, amelyek máshol nincsenek.
 
 Képességek:

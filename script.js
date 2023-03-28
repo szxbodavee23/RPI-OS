@@ -16,6 +16,13 @@ const txt = texts.innerHTML;
 // vissza gomb
 const back = document.getElementById("vissza");
 
+// text containers
+const text_containers = document.getElementsByClassName("txt_container");
+
+for (let i = 0; i < text_containers.length; i++) {
+    text_containers[i].style = "display: none";
+}
+
 // szovegek
 const ubuntu_szoveg = "A Wi-Fi 2,4 GHz-es és 5 GHz-es hálózatok működnek a Bluetooth-al egyetemben, és egyetlen egérkattintással sikerült csatlakoztatni a TaoTronics vezeték nélküli fülhallgatót is. A Full HD (1080p) YouTube videók mind a Mozilla Firefoxban (alapértelmezett), mind pedig a Chromium webböngészőben (snap-ként telepítve) működnek, és a Full HD (1080p) videólejátszás is hibátlanul működik.";
 const ubuntu_mate_szoveg = "Felhasználóbarát felület: Az Ubuntu MATE felhasználóbarát felülete lehetővé teszi, hogy könnyen navigálj a rendszerben, és használja a különböző alkalmazásokat és eszközöket. Stabil: Az Ubuntu MATE stabil és megbízható operációs rendszer, amely megbízhatóan fut a Raspberry Pi-n, és minimális karbantartást igényel. Támogatás: Az Ubuntu MATE-t aktívan fejlesztik, és rendszeresen frissítik a biztonsági frissítéseket és a hibajavításokat. Az Ubuntu MATE-hoz is van közösségi támogatás, amely segíthet az esetlegesen felmerülő problémák megoldásában. Nagy alkalmazáskínálat: Az Ubuntu MATE-hez elérhető nagy alkalmazáskínálat könnyen telepíthető a rendszerre a felhasználók számára, amelyek különböző célokra használhatók, például a webböngészés, a szövegszerkesztés, a multimédiás lejátszás és még sok más.";
@@ -27,6 +34,10 @@ back.addEventListener("click", () => {
     ubuntu_mate_bnt.innerHTML = ubuntu_mate_txt;
     windows_iot_btn.innerHTML = windows_txt;
     texts.innerHTML = txt;
+
+    for (let i = 0; i < text_containers.length; i++) {
+        text_containers[i].style = "display: none";
+    }
 });
 
 
@@ -44,11 +55,13 @@ ubuntu_btn.addEventListener("click", () => {
         mid.innerHTML = ubuntu_txt;
         ubuntu_btn.innerHTML = "Előnyök";
         windows_iot_btn.innerHTML = "Hátrányok";
+
+        texts.innerHTML = "Ha ismered az Ubuntu asztali környezetet a számítógépeden vagy laptopodon, akkor azt kell mondanom, hogy semmi sem változik, amikor az Ubuntu-t futtatod a Raspberry Pi-n. Valójában, ha főként otthoni irodai munkát végzel (dokumentumok írása, internetezés, videók nézése stb.), akkor akár a számítógépedet is kicserélheted egy Raspberry Pi-re, amely sok pénzt takaríthat meg az energia számládon. Az Ubuntu 20.10 azonos alkalmazásokat tartalmaz, mint az Ubuntu asztali környezete GNOME-alapokon, és még egy kis pluszt is kap, mivel a Raspberry Pi-hoz készült Ubuntu 20.10 egyedi válogatással rendelkezik az alapértelmezett háttérképek között, amelyek máshol nincsenek.";
     }
     else {
         texts.innerHTML = mid.innerHTML + " Előnyök";
 
-        
+        text_containers[0].style = "display: block;";
     }
 });
 
@@ -58,6 +71,8 @@ ubuntu_mate_bnt.addEventListener("click", () => {
         mid.innerHTML = ubuntu_mate_txt;
         ubuntu_btn.innerHTML = "Előnyök";
         windows_iot_btn.innerHTML = "Hátrányok";
+
+        texts.innerHTML = "A Raspberry Pi egyike a legnépszerűbb számítógép platformoknak, amelyen sokféle operációs rendszer futtatható, köztük az Ubuntu MATE is. Az Ubuntu MATE egy könnyen használható és felhasználóbarát operációs rendszer, amely kifejezetten a Raspberry Pi és más ARM-alapú számítógépek számára készült.";
     }
 });
 
@@ -67,6 +82,8 @@ windows_iot_btn.addEventListener("click", () => {
         mid.innerHTML = windows_txt;
         ubuntu_btn.innerHTML = "Előnyök";
         windows_iot_btn.innerHTML = "Hátrányok";
+
+        texts.innerHTML = "A Raspberry Pi egy kis méretű számítógép, amelyet általában a Linux alapú Raspbian operációs rendszerrel használnak. Azonban a Windows IoT (Internet of Things) operációs rendszer is támogatja a Raspberry Pi-t, és lehetővé teszi a számítógép alkalmazásait és eszközeit az IoT-rendszerbe való integrálását.";
     }
     else {
         texts.innerHTML = mid.innerHTML + " Hátrányok";

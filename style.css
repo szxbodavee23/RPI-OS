@@ -10,7 +10,6 @@
 body {
     margin-top: 1vw;
     background-image: linear-gradient(to right, #80b2ef, #b569b1);
-    margin-top: 1vw;
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -166,4 +165,11 @@ img{
 
 .raspberry:hover {
   cursor: not-allowed;
+}
+
+
+.txt_container {
+  border: 1px solid salmon;
+  max-width: 50%;
+  margin: auto;
 }
