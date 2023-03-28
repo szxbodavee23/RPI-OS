@@ -147,3 +147,19 @@ img{
 #creators_box:hover {
   color: black;
 }
+.back{
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  margin: 15px;
+  text-align: center;
+  width: 160px;
+}
+.back:hover{
+  font-size: 20px;
+  color: crimson;
+  transition:font-size 0.5s;
+  -moz-transition:font-size 0.5s; 
+  -webkit-transition:font-size 0.5s; 
+  -o-transition:font-size 0.5s;  
+}
