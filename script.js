@@ -33,23 +33,29 @@ img.ondragstart = () => {
 // event listenerek a gombokra
 // ubuntu
 ubuntu_btn.addEventListener("click", () => {
-    mid.innerHTML = ubuntu_txt;
-    ubuntu_btn.innerHTML = "Előnyök";
-    windows_iot_btn.innerHTML = "Hátrányok";
+    if (ubuntu_btn.innerHTML == ubuntu_txt) {
+        mid.innerHTML = ubuntu_txt;
+        ubuntu_btn.innerHTML = "Előnyök";
+        windows_iot_btn.innerHTML = "Hátrányok";
+    }
 });
 
 // ubuntu mate
 ubuntu_mate_bnt.addEventListener("click", () => {
-    mid.innerHTML = ubuntu_mate_txt;
-    ubuntu_btn.innerHTML = "Előnyök";
-    windows_iot_btn.innerHTML = "Hátrányok";
+    if (ubuntu_mate_bnt.innerHTML == ubuntu_mate_txt) {
+        mid.innerHTML = ubuntu_mate_txt;
+        ubuntu_btn.innerHTML = "Előnyök";
+        windows_iot_btn.innerHTML = "Hátrányok";
+    }
 });
 
 // windows IoT
 windows_iot_btn.addEventListener("click", () => {
-    mid.innerHTML = windows_txt;
-    ubuntu_btn.innerHTML = "Előnyök";
-    windows_iot_btn.innerHTML = "Hátrányok";
+    if (windows_iot_btn.innerHTML == windows_txt) {
+        mid.innerHTML = windows_txt;
+        ubuntu_btn.innerHTML = "Előnyök";
+        windows_iot_btn.innerHTML = "Hátrányok";
+    }
 });
 
 // keszitok 
