@@ -12,6 +12,7 @@ const button_text = document.getElementById("texts");
 const mid = ubuntu_mate_bnt;
 // texts p aminek a szovege valtoztatva lesz
 const texts = document.getElementById("texts");
+const txt = texts.innerHTML;
 // vissza gomb
 const back = document.getElementById("vissza");
 
@@ -20,6 +21,7 @@ back.addEventListener("click", () => {
     ubuntu_btn.innerHTML = ubuntu_txt;
     ubuntu_mate_bnt.innerHTML = ubuntu_mate_txt;
     windows_iot_btn.innerHTML = windows_txt;
+    texts.innerHTML = txt;
 });
 
 
@@ -38,6 +40,9 @@ ubuntu_btn.addEventListener("click", () => {
         ubuntu_btn.innerHTML = "Előnyök";
         windows_iot_btn.innerHTML = "Hátrányok";
     }
+    else {
+        texts.innerHTML = mid.innerHTML + " Előnyök";
+    }
 });
 
 // ubuntu mate
@@ -55,6 +60,9 @@ windows_iot_btn.addEventListener("click", () => {
         mid.innerHTML = windows_txt;
         ubuntu_btn.innerHTML = "Előnyök";
         windows_iot_btn.innerHTML = "Hátrányok";
+    }
+    else {
+        texts.innerHTML = mid.innerHTML + " Hátrányok";
     }
 });
 
