@@ -1,0 +1,23 @@
+Telepítés:
+
+Az Ubuntu 20.10 telepítése eddig a legegyszerűbb Linux OS telepítés, amit a Raspberry Pi-n láttam, és ez a disztribúció elérhetősége miatt van a Raspberry Pi Imager-en keresztül. Ez a Raspberry Pi Foundation nyílt forráskódú képalkotó eszköze, amely lehetővé teszi a Linux-alapú disztribúciók és egyéb kapcsolódó szoftverek írását a Raspberry Pi microSD-kártyájára.
+
+Az asztal:
+
+Ha ismered az Ubuntu asztali környezetet a számítógépeden vagy laptopodon, akkor azt kell mondanom, hogy semmi sem változik, amikor az Ubuntu-t futtatod a Raspberry Pi-n. Valójában, ha főként otthoni irodai munkát végzel (dokumentumok írása, internetezés, videók nézése stb.), akkor akár a számítógépedet is kicserélheted egy Raspberry Pi-re, amely sok pénzt takaríthat meg az energia számládon.
+
+Az Ubuntu 20.10 azonos alkalmazásokat tartalmaz, mint az Ubuntu asztali környezete GNOME-alapokon, és még egy kis pluszt is kap, mivel a Raspberry Pi-hoz készült Ubuntu 20.10 egyedi válogatással rendelkezik az alapértelmezett háttérképek között, amelyek máshol nincsenek.
+
+Képességek:
+
+A Wi-Fi 2,4 GHz-es és 5 GHz-es hálózatok működnek a Bluetooth-al egyetemben, és egyetlen egérkattintással sikerült csatlakoztatni a TaoTronics vezeték nélküli fülhallgatót is. A Full HD (1080p) YouTube videók mind a Mozilla Firefoxban (alapértelmezett), mind pedig a Chromium webböngészőben (snap-ként telepítve) működnek, és a Full HD (1080p) videólejátszás is hibátlanul működik.
+
+Hátrányok:
+
+Természetesen a 4K YouTube vagy helyi videólejátszás nem elérhető, de ez hardverkorlátozásnak tekinthető. A YouTube-on a Quad HD (1440p) és 4K (2160p) minőségű lehetőségek is megjelennek mind a Firefoxban, mind a Chromium-ban, de a 1440p-s minőség lassú, a 2160p-s pedig egyáltalán nem játszódik le. Helyi 4K videók nem játszódnak le a VLC-ben vagy az MPV-ben sem.
+
+Konklúzió:
+
+Az Ubuntu 20.10 futtatása a Raspberry Pi 4-en eddig a legjobb és legoptimálisabb "Linux a Raspberry Pi-n"  lehetőség. Azonban van néhány apró dolog, amit a jövőbeli kiadásokban javítani kell. Például, ha megváltoztatod a háttérképet, akkor nem tudod visszaszerezni az alapértelmezettet.
+
+Emellett az About oldal a Rendszerbeállításokban nem mutatja a CPU és a merevlemez kapacitását, valamint a GNOME verzió nincs szinkronban a rendszeren telepített verzióval. Mindazonáltal, a Canonicalnak és az Ubuntu Desktop csapat egy fantasztikus Ubuntu Desktop Raspberry Pi telepítését tették lehetővé.
