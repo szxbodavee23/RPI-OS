@@ -163,3 +163,7 @@ img{
   -webkit-transition:font-size 0.5s; 
   -o-transition:font-size 0.5s;  
 }
+
+.raspberry:hover {
+  cursor: not-allowed;
+}
