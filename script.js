@@ -1,26 +1,47 @@
+// menu gombok szovegei
+const ubuntu_txt = "Ubuntu";
+const ubuntu_mate_txt = "Ubuntu Mate";
+const windows_txt = "Windows IoT";
+
 // menu gombok
 const ubuntu_btn = document.getElementById("ubuntu_btn");
 const ubuntu_mate_bnt = document.getElementById("ubuntu_mate_btn");
 const windows_iot_btn = document.getElementById("windows_iot_btn");
 const button_text = document.getElementById("texts");
+// kozepso gomb
+const mid = ubuntu_mate_bnt;
 // texts p aminek a szovege valtoztatva lesz
 const texts = document.getElementById("texts");
+// vissza gomb
+const back = document.getElementById("vissza");
+
+back.addEventListener("click", () => {
+    // szoveg valtoztatasa
+    ubuntu_btn.innerHTML = ubuntu_txt;
+    ubuntu_mate_bnt.innerHTML = ubuntu_mate_txt;
+    windows_iot_btn.innerHTML = windows_txt;
+});
 
 // event listenerek a gombokra
 // ubuntu
 ubuntu_btn.addEventListener("click", () => {
-    button_text.innerHTML = "A cikk az Ubuntu 20.10 telepítésének és futtatásának tapasztalatait tárgyalja egy Raspberry Pi 4-en. A telepítési folyamatot egyszerűnek írja le, köszönhetően annak, hogy az Ubuntu elérhető a Raspberry Pi Imager-en. A cikk megjegyzi, hogy az Ubuntu for Raspberry Pi asztali élménye hasonló az asztali élményhez egy hagyományos PC-n. Az operációs rendszer képes Wi-Fi, Bluetooth és Full HD videólejátszásra, de a 4K videólejátszás a hardveres korlátozások miatt nem lehetséges. A cikk arra a következtetésre jut, hogy az Ubuntu 20.10 Raspberry Pi 4-en az eddigi legjobb Linux-élmény Raspberry Pi-n, néhány apró javítással, amelyet a jövőbeli kiadásokban még el lehet végezni."
-
+    mid.innerHTML = ubuntu_txt;
+    ubuntu_btn.innerHTML = "Előnyök";
+    windows_iot_btn.innerHTML = "Hátrányok";
 });
 
 // ubuntu mate
 ubuntu_mate_bnt.addEventListener("click", () => {
-    texts.innerHTML = "Ubuntu Mate";
+    mid.innerHTML = ubuntu_mate_txt;
+    ubuntu_btn.innerHTML = "Előnyök";
+    windows_iot_btn.innerHTML = "Hátrányok";
 });
 
 // windows IoT
 windows_iot_btn.addEventListener("click", () => {
-    texts.innerHTML = "Windows IoT";
+    mid.innerHTML = windows_txt;
+    ubuntu_btn.innerHTML = "Előnyök";
+    windows_iot_btn.innerHTML = "Hátrányok";
 });
 
 // keszitok 
