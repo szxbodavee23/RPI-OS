@@ -1,0 +1,63 @@
+Ubuntu:
+<======>
+- Installation: (Nagyvonalakban hogy megis mi a faszrol van szo meg ilyenek)
+
+Installing Ubuntu 20.10 has to be the easiest Linux OS 
+installation on a Raspberry Pi I’ve seen so  far, and that’s 
+because of distro’s availability on the Raspberry Pi Imager, 
+Raspberry Pi > > > Foundation’s open source imaging utility 
+for writing Linux-powered distributions and other related software 
+on the microSD card of your Raspberry Pi.
+
+- The desktop: (Szinten csak behanyt szoveg, kesobbi informacio kollektalas elosegitesere)
+
+If you are familiar with the Ubuntu desktop on 
+your desktop or laptop computer, let me tell you
+that nothing will change when you run Ubuntu on
+a Raspberry Pi board. In fact, if you mostly 
+do home office work (write documents, surf the Web,
+watch videos, etc.), you can even replace your 
+desktop PC with a Raspberry Pi, which will save you a lot of money on energy bills.
+
+You’ll get the same apps, the same GNOME-based 
+Ubuntu desktop experience, and even a bit extra as 
+Ubuntu 20.10 for Raspberry Pi comes with a unique 
+selection of default wallpapers you won’t find 
+anywhere else (OK, you can download them from here).
+
+- Capabilities: (-||-)
+
+Wi-Fi 2.4GHz and 5GHz networks work, 
+Bluetooth works and I was able to 
+connect my TaoTronics wireless earbuds with 
+a single mouse click, Full HD (1080p) YouTube 
+videos work in both Mozilla Firefox (default) 
+and Chromium web browsers (installed as a snap), and 
+Full HD (1080p) video playback works flawlessly too.
+
+- Things that doesn't work: (-||-)
+
+Of course, 4K YouTube or local video 
+playback doesn’t work, but that could 
+be considered a hardware limitation. 
+On YouTube, you can see the Quad HD (1440p) 
+and 4K (2160p) quality options on both Firefox and 
+Chromium, but playback is very slow on 1440p and non-existent 
+on 2160p. Local 4K videos won’t even play in VLC or MPV (both installed from the archives).
+
+- Conclusion:
+
+Running Ubuntu 20.10 on the Raspberry Pi 4 
+was the best ‘Linux on Raspberry Pi’ experience 
+I’ve had so far. However, there are a couple of 
+tiny things that need to be improved in future 
+releases. For example, if you change the default 
+wallpaper to anything else, you won’t be able to get it back.
+
+Also, the About page in System Settings doesn’t show CPU 
+and disk capacity info, and the GNOME version isn’t in 
+sync with what’s installed on the system. But other than 
+that, congrats to Canonical and the Ubuntu Desktop team 
+for an awesome Ubuntu Desktop on Raspberry Pi release!
+
+Source: https://9to5linux.com/ubuntu-20-10-on-the-raspberry-pi-4-rocks-a-review
