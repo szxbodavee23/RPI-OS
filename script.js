@@ -30,7 +30,6 @@ windows_iot_btn.addEventListener("click", () => {
 // keszitok 
 const keszitok_logo = document.getElementById("logo"); // logo
 const keszitok = document.getElementsByClassName("creators")[0];
-
 const style = keszitok.style;
 
 keszitok_logo.addEventListener("mouseleave", () => {
