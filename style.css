@@ -167,16 +167,7 @@ img{
   cursor: not-allowed;
 }
 
-
-.txt_container {
-  border: 2px solid salmon;
-  border-radius: 10px;
-  box-shadow: 10px 10px 10px salmon;
-  max-width: 50%;
-  margin: auto;
-}
-
-.mid_section {
+#context {
   border: 2px solid salmon;
   border-radius: 10px;
   box-shadow: 10px 10px 10px salmon;

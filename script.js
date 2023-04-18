@@ -23,11 +23,6 @@ for (let i = 0; i < text_containers.length; i++) {
     text_containers[i].style = "display: none";
 }
 
-// szovegek
-const ubuntu_szoveg = "A Wi-Fi 2,4 GHz-es és 5 GHz-es hálózatok működnek a Bluetooth-al egyetemben, és egyetlen egérkattintással sikerült csatlakoztatni a TaoTronics vezeték nélküli fülhallgatót is. A Full HD (1080p) YouTube videók mind a Mozilla Firefoxban (alapértelmezett), mind pedig a Chromium webböngészőben (snap-ként telepítve) működnek, és a Full HD (1080p) videólejátszás is hibátlanul működik.";
-const ubuntu_mate_szoveg = "Felhasználóbarát felület: Az Ubuntu MATE felhasználóbarát felülete lehetővé teszi, hogy könnyen navigálj a rendszerben, és használja a különböző alkalmazásokat és eszközöket. Stabil: Az Ubuntu MATE stabil és megbízható operációs rendszer, amely megbízhatóan fut a Raspberry Pi-n, és minimális karbantartást igényel. Támogatás: Az Ubuntu MATE-t aktívan fejlesztik, és rendszeresen frissítik a biztonsági frissítéseket és a hibajavításokat. Az Ubuntu MATE-hoz is van közösségi támogatás, amely segíthet az esetlegesen felmerülő problémák megoldásában. Nagy alkalmazáskínálat: Az Ubuntu MATE-hez elérhető nagy alkalmazáskínálat könnyen telepíthető a rendszerre a felhasználók számára, amelyek különböző célokra használhatók, például a webböngészés, a szövegszerkesztés, a multimédiás lejátszás és még sok más.";
-const windows_szoveg = "Jól ismert környezet: A Windows IoT operációs rendszer jól ismert és elterjedt az iparban, ezért sok fejlesztő számára ismerős lehet. Ez azt jelenti, hogy az átállás könnyebb lehet a fejlesztőknek, akik már tapasztalattal rendelkeznek a Windows fejlesztés terén. Felhő integráció: A Windows IoT operációs rendszer lehetővé teszi a felhő alapú szolgáltatásokkal való integrációt, mint például az Azure IoT Hub, a Microsoft felhőalapú IoT platformja. Ez lehetővé teszi a felhasználók számára az eszközeik távoli felügyeletét és irányítását. Windows kompatibilitás: A Windows IoT operációs rendszer lehetővé teszi a Windows-kompatibilis alkalmazások futtatását a Raspberry Pi-n. Ez azt jelenti, hogy a fejlesztőknek nem kell külön alkalmazásokat fejleszteniük a Raspberry Pi-hoz.";
-
 back.addEventListener("click", () => {
     // szoveg vissza valtoztatasa
     ubuntu_btn.innerHTML = ubuntu_txt;
@@ -49,8 +44,6 @@ img.ondragstart = () => {
 const $ = (id) => {
     return document.getElementById(id);
 }
-
-mid_section = document.getElementsByClassName("mid_section");
 
 // event listenerek a gombokra
 // ubuntu
