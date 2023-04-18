@@ -50,6 +50,8 @@ const $ = (id) => {
     return document.getElementById(id);
 }
 
+mid_section = document.getElementsByClassName("mid_section");
+
 // event listenerek a gombokra
 // ubuntu
 ubuntu_btn.addEventListener("click", () => {
