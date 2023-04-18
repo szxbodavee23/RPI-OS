@@ -29,6 +29,7 @@ back.addEventListener("click", () => {
     ubuntu_mate_bnt.innerHTML = ubuntu_mate_txt;
     windows_iot_btn.innerHTML = windows_txt;
     texts.innerHTML = txt;
+    ubuntu_mate_bnt.style = "color: black;";
 
     for (let i = 0; i < text_containers.length; i++) {
         text_containers[i].style = "display: none";
@@ -55,6 +56,7 @@ ubuntu_btn.addEventListener("click", () => {
         windows_iot_btn.innerHTML = "Hátrányok";
 
         texts.innerHTML = "Ha ismered az Ubuntu asztali környezetet a számítógépeden vagy laptopodon, akkor azt kell mondanom, hogy semmi sem változik, amikor az Ubuntu-t futtatod a Raspberry Pi-n. Valójában, ha főként otthoni irodai munkát végzel (dokumentumok írása, internetezés, videók nézése stb.), akkor akár a számítógépedet is kicserélheted egy Raspberry Pi-re, amely sok pénzt takaríthat meg az energia számládon. Az Ubuntu 20.10 azonos alkalmazásokat tartalmaz, mint az Ubuntu asztali környezete GNOME-alapokon, és még egy kis pluszt is kap, mivel a Raspberry Pi-hoz készült Ubuntu 20.10 egyedi válogatással rendelkezik az alapértelmezett háttérképek között, amelyek máshol nincsenek.";
+        mid.style = "color: #FF99FF;";
     }
     else {
         texts.innerHTML = "";
@@ -84,6 +86,7 @@ ubuntu_mate_bnt.addEventListener("click", () => {
     else if (mid.innerHTML == ubuntu_mate_txt) {
         text_containers[1].style = "display: none";
         text_containers[4].style = "display: none;";
+        ubuntu_mate_bnt.style = "color: #FF99FF;";
         texts.innerHTML = "A Raspberry Pi egyike a legnépszerűbb számítógép platformoknak, amelyen sokféle operációs rendszer futtatható, köztük az Ubuntu MATE is. Az Ubuntu MATE egy könnyen használható és felhasználóbarát operációs rendszer, amely kifejezetten a Raspberry Pi és más ARM-alapú számítógépek számára készült.";
     }
     else {
@@ -98,6 +101,8 @@ ubuntu_mate_bnt.addEventListener("click", () => {
         windows_iot_btn.innerHTML = "Hátrányok";
 
         texts.innerHTML = "A Raspberry Pi egyike a legnépszerűbb számítógép platformoknak, amelyen sokféle operációs rendszer futtatható, köztük az Ubuntu MATE is. Az Ubuntu MATE egy könnyen használható és felhasználóbarát operációs rendszer, amely kifejezetten a Raspberry Pi és más ARM-alapú számítógépek számára készült.";
+
+        
     }
 });
 
@@ -109,6 +114,8 @@ windows_iot_btn.addEventListener("click", () => {
         windows_iot_btn.innerHTML = "Hátrányok";
 
         texts.innerHTML = "A Raspberry Pi egy kis méretű számítógép, amelyet általában a Linux alapú Raspbian operációs rendszerrel használnak. Azonban a Windows IoT (Internet of Things) operációs rendszer is támogatja a Raspberry Pi-t, és lehetővé teszi a számítógép alkalmazásait és eszközeit az IoT-rendszerbe való integrálását.";
+
+        mid.style = "color: #FF99FF;";
     }
     else {
         texts.innerHTML = "";
@@ -125,6 +132,7 @@ windows_iot_btn.addEventListener("click", () => {
             $("windows_hatranyok").style = "display: block";
             $("windows_elonyok").style = "display: none";
         }
+
     }
 });
 

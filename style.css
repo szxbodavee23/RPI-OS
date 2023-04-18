@@ -167,10 +167,24 @@ img{
   cursor: not-allowed;
 }
 
+.mid_section {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.fading {
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 #context {
-  border: 2px solid salmon;
+  border: 2px solid #FF99FF;
   border-radius: 10px;
-  box-shadow: 10px 10px 10px salmon;
+  box-shadow: 10px 10px 10px #FF99FF;
   max-width: 50%;
   margin: auto;
 }
