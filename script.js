@@ -34,13 +34,15 @@ back.addEventListener("click", () => {
     for (let i = 0; i < text_containers.length; i++) {
         text_containers[i].style = "display: none";
     }
+
+    $("ubuntu_teszt_hatrany").style = "display: none;";
 });
 
 
-const img = document.querySelector('img');
-img.ondragstart = () => {
-    return false;
-};
+// const img = document.querySelector('img');
+// img.ondragstart = () => {
+//     return false;
+// };
 
 const $ = (id) => {
     return document.getElementById(id);
@@ -144,3 +146,14 @@ const style = keszitok.style;
 keszitok_logo.addEventListener("mouseleave", () => {
     keszitok.style = style;
 });
+
+let v = false;
+ $("teszt_eredmeny_gomb_ubuntu_hatrany").addEventListener("click", () => {
+    v = !v;
+    if (v) {
+        $("ubuntu_teszt_hatrany").style = "display: block;";
+    }
+    else {
+        $("ubuntu_teszt_hatrany").style = "display: none;";
+    }
+ });

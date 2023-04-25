@@ -47,10 +47,11 @@ body {
 }
 
 
-img:hover {
-  -webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+/* img:hover {
+  -webkit-filter: blur(2px);
   filter: blur(2px);
-}
+} */
+
 .raspberry:hover{
   filter: drop-shadow(0 0 0.75rem rgb(240, 133, 165));
 }
@@ -176,15 +177,32 @@ img{
   animation: fadein 2s;
 }
 
-@keyframes fadein {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
 #context {
   border: 2px solid #FF99FF;
   border-radius: 10px;
   box-shadow: 10px 10px 10px #FF99FF;
   max-width: 50%;
   margin: auto;
+}
+
+#teszt_eredmeny_gomb_ubuntu_hatrany, #teszt_eredmeny_gomb_ubuntu_elony {
+  color:#FF99FF;
+  background-color: rgba(0,0,0,0);
+  transition: all 0.8s linear;
+  border: none;
+}
+
+#teszt_eredmeny_gomb_ubuntu_hatrany:hover, #teszt_eredmeny_gomb_ubuntu_elony:hover {
+  color: crimson;
+  text-shadow: 5px 5px 5px salmon;
+}
+
+#ubuntu_teszt_hatrany {
+  display: none;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
