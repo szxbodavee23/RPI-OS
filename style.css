@@ -185,19 +185,56 @@ img{
   margin: auto;
 }
 
-#teszt_eredmeny_gomb_ubuntu_hatrany, #teszt_eredmeny_gomb_ubuntu_elony {
-  color:#FF99FF;
+#ubuntu_mate_teszt_elonyok {
+  display: none;
+}
+
+#ubutnu_mate_teszt_hatrany {
+  display: none;
+}
+
+#teszt_eredmeny_gomb_ubuntu_elony, #teszt_eredmeny_gomb_windows_elony, #ubuntu_mate_elonyok_gomb {
+  color: #FF99FF;
   background-color: rgba(0,0,0,0);
   transition: all 0.8s linear;
+  cursor: pointer;
   border: none;
 }
 
-#teszt_eredmeny_gomb_ubuntu_hatrany:hover, #teszt_eredmeny_gomb_ubuntu_elony:hover {
+#teszt_eredmeny_gomb_ubuntu_elony:hover, #teszt_eredmeny_gomb_windows_elony:hover, #ubuntu_mate_elonyok_gomb:hover {
+  color: green;
+  text-shadow: 5px 5px 5px lightgreen;
+}
+
+#teszt_eredmeny_gomb_ubuntu_hatrany, #teszt_eredmeny_gomb_windows_elony, #teszt_eredmeny_gomb_windows_hatrany, #ubuntu_mate_gomb_hatrany {
+  color:#FF99FF;
+  background-color: rgba(0,0,0,0);
+  transition: all 0.8s linear;
+  cursor: pointer;
+  border: none;
+}
+
+#teszt_eredmeny_gomb_ubuntu_hatrany:hover, #teszt_eredmeny_gomb_windows_hatrany:hover, #ubuntu_mate_gomb_hatrany:hover {
   color: crimson;
   text-shadow: 5px 5px 5px salmon;
 }
 
 #ubuntu_teszt_hatrany {
+  display: none;
+  animation: fadein 2s;
+}
+
+#ubuntu_teszt_elony {
+  display: none;
+  animation: fadein 2s;
+}
+
+#windows_teszt_hatrany {
+  display: none;
+  animation: fadein 2s;
+}
+
+#windows_teszt_elony {
   display: none;
   animation: fadein 2s;
 }

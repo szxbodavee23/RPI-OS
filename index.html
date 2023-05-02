@@ -11,7 +11,7 @@
     <body>
         <header>
             <div>
-                <figure><a href="https://www.raspberrypi.org/" target="_blank"><img src="pics/rp_icon.png" alt="Raspberry icon" class="raspberry grow"></a></figure>
+                <figure><a href="https://www.raspberrypi.org/" ><img src="pics/rp_icon.png" alt="Raspberry icon" class="raspberry grow"></a></figure>
                 <h1 id="title" class="line">Raspberry OS-ek összehasonlítása</h1>
             </div>
 
@@ -42,9 +42,20 @@
                             Az animációk egyszerűek, inkább funkcionálisak.
                             Több háttérrel, személyreszabható- asztallal és tálcával rendelkezik.
                         </p>
+                        <a href="pics/ubuntu_inst.jpg" ><img style="width: 100%;" src="pics/ubuntu_inst.jpg" alt="ubuntu installation"></a>
+                        <p style="color: green; text-shadow: 5px 5px 5px lightgreen;">
+                            A rendszer telepítése rendkívül egyszerű és gyors.
+                            Ha mégis segítségre lenne szükségünk, rengeteg forrás áll rendelkezésünkre.
+                        </p>
+                        <a href="pics/ubuntu_desktop.jpg" ><img style="width: 100%;" src="pics/ubuntu_desktop.jpg" alt="ubuntu desktop"></a>
                         <p style="color: green; text-shadow: 5px 5px 5px lightgreen">
                             A tálca helye változtatható, ami sokaknak fontos lehet.
                         </p>
+                        <a href="pics/ubuntu_desk.webp" ><img style="width: 100%;" src="pics/ubuntu_desk.webp" alt="ubuntu desktop on the bottom"></a>
+                        <p style="color: green; text-shadow: 5px 5px 5px lightgreen;">
+                            Ami azonban még fontosabb, hogy a rendszer rengeteg nyelvcsomaggal (többek között magyarral is) rendelkezik.
+                        </p>
+                        <a href="pics/ubuntu_langs.png"><img style="width: 100%;" src="pics/ubuntu_langs.png" alt="ubuntu languages"></a>
                     </div>
 
                 </div>
@@ -67,6 +78,11 @@
                          számára, amelyek különböző célokra használhatók, például a 
                          webböngészés, a szövegszerkesztés, a multimédiás lejátszás és még sok más.
                     </p>
+
+                    <button id="ubuntu_mate_elonyok_gomb"><h2>Teszt Rredmények</h2></button>
+                    <div id="ubuntu_mate_teszt_elonyok">
+                        <p>ubuntu mate teszt elonyok</p>
+                    </div>
                 </div>
 
                 <div id="windows_elonyok" class="txt_container mid_section fading">
@@ -87,6 +103,11 @@
                         alkalmazások futtatását a Raspberry Pi-n. Ez azt
                         jelenti, hogy a fejlesztőknek nem kell külön alkalmazásokat fejleszteniük a Raspberry Pi-hoz.
                     </p>
+
+                    <button id="teszt_eredmeny_gomb_windows_elony"><h2>Teszt Eredmények</h2></button>
+                    <div id="windows_teszt_elony">
+                        <p>Windows Teszt Előny</p>
+                    </div>
                 </div>
 
                 <div id="ubuntu_hatranyok" class="txt_container mid_section fading">
@@ -111,11 +132,11 @@
                             A "top" parancs lefutattása utáni eredmények alább láthatóak:
                         </p>
                         <br>
-                        <img style="width: 100%;" src="pics/ubuntu_teszt.png" alt="ubuntu teszt eredmények">
+                        <a href="pics/ubuntu_teszt.png"><img style="width: 100%;" src="pics/ubuntu_teszt.png" alt="ubuntu teszt eredmények"></a>
                         <p>
                             A "free -m" parancs lefutattása utáni eredmények a memória használattal kapcsolatban az alábbiak:
                         </p>
-                        <img style="width: 100%;" src="pics/ubuntu_teszt2.png" alt="ubuntu teszt 2 eredmények">
+                        <a href="pics/ubuntu_teszt2.png"><img style="width: 100%;" src="pics/ubuntu_teszt2.png" alt="ubuntu teszt 2 eredmények"></a>
                         <p style="color: crimson; text-shadow: 5px 5px 5px tomato;">
                             Amint látható, mind a processzor és a memória kihasználtság is magas, bármilyen software futtatása nélkül is.
                             Valamilyen software használatakor ezek az adatok romlanak, a gép még jobban lelassul, szinte használhatatlanná válik.
@@ -141,6 +162,15 @@
                         nem támogatja teljes mértékben, és előfordulhat, hogy a hardverrel
                          kapcsolatos problémák merülnek fel az eszközök használata során.
                     </p>
+
+                    <button id="ubuntu_mate_gomb_hatrany"><h2>Teszt Eredmények</h2></button>
+                    <div id="ubutnu_mate_teszt_hatrany">
+                        <p>
+                            ubuntu mate teszt hatrany
+                        </p>
+                        <a href="pics/top_mate.jpg"><img style="width: 100%;" src="pics/top_mate.jpg" alt="ubuntu mate top command"></a>
+                        <a href="pics/free_mate.jpg"><img style="width: 100%;" src="pics/free_mate.jpg" alt="ubuntu mate top command"></a>
+                    </div>
                 </div>
 
                 <div id="windows_hatranyok" class="txt_container mid_section fading">
@@ -160,7 +190,14 @@
                          csak bizonyos fejlesztési lehetőségeket támogat. Ez azt jelenti, hogy a fejlesztők 
                          korlátozott funkciókat és lehetőségeket használhatnak a szoftverfejlesztés során.
                     </p>
+
+                    <button id="teszt_eredmeny_gomb_windows_hatrany"><h2>Teszt Eredmények</h2></button>
+                    <div id="windows_teszt_hatrany">
+                        <p>Windows Teszt Hátrányok</p>
+                    </div>
                 </div>
+
+                
 
 
                 <button id="vissza" class="back line">Vissza</button>

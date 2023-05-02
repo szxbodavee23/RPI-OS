@@ -157,3 +157,58 @@ let v = false;
         $("ubuntu_teszt_hatrany").style = "display: none;";
     }
  });
+
+ let v2 = false;
+ $("teszt_eredmeny_gomb_ubuntu_elony").addEventListener("click", () => {
+    v2 = !v2;
+    if (v2) {
+        $("ubuntu_teszt_elony").style = "display: block";
+    }
+    else {
+        $("ubuntu_teszt_elony").style = "display: none;";
+    }
+ });
+
+ let v3 = false;
+ $("teszt_eredmeny_gomb_windows_elony").addEventListener("click", () => {
+    v3 = !v3;
+    if (v3) {
+        $("windows_teszt_elony").style = "display: block";
+    }
+    else {
+        $("windows_teszt_elony").style = "display: none;";
+    }
+ });
+
+ let v4 = false;
+ $("teszt_eredmeny_gomb_windows_hatrany").addEventListener("click", () => {
+    v4 = !v4;
+    if (v4) {
+        $("windows_teszt_hatrany").style = "display: block";
+    }
+    else {
+        $("windows_teszt_hatrany").style = "display: none;";
+    }
+ });
+
+ let v5 = false;
+ $("ubuntu_mate_elonyok_gomb").addEventListener("click", () => {
+    v5 = !v5;
+    if (v5) {
+        $("ubuntu_mate_teszt_elonyok").style = "display: block";
+    }
+    else {
+        $("ubuntu_mate_teszt_elonyok").style = "display: none;";
+    }
+ });
+
+ let v6 = false;
+ $("ubuntu_mate_gomb_hatrany").addEventListener("click", () => {
+    v6 = !v6;
+    if (v6) {
+        $("ubutnu_mate_teszt_hatrany").style = "display: block";
+    }
+    else {
+        $("ubutnu_mate_teszt_hatrany").style = "display: none;";
+    }
+ });
