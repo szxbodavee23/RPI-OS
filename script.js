@@ -1,7 +1,7 @@
 // menu gombok szovegei
 const ubuntu_txt = "Ubuntu";
 const ubuntu_mate_txt = "Ubuntu Mate";
-const windows_txt = "Risc OS";
+const windows_txt = "Chrome OS";
 
 // menu gombok
 const ubuntu_btn = document.getElementById("ubuntu_btn");
@@ -115,7 +115,7 @@ windows_iot_btn.addEventListener("click", () => {
         ubuntu_btn.innerHTML = "Előnyök";
         windows_iot_btn.innerHTML = "Hátrányok";
 
-        texts.innerHTML = "A Risc OS Pi operációs rendszer egy könnyű, gyors és hatékony rendszer, kifejezetten a Raspberry Pi platformra tervezve. Egy érdekes lehetőség a felhasználók számára, akik alternatívát keresnek a hagyományos operációs rendszerekhez képest.";
+        texts.innerHTML = "Chrome OS alapveto ismertetok";
 
         mid.style = "color: #FF99FF;";
     }
