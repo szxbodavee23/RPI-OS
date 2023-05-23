@@ -1,7 +1,7 @@
 // menu gombok szovegei
 const ubuntu_txt = "Ubuntu";
 const ubuntu_mate_txt = "Ubuntu Mate";
-const windows_txt = "Windows IoT";
+const windows_txt = "Risc OS";
 
 // menu gombok
 const ubuntu_btn = document.getElementById("ubuntu_btn");
@@ -94,7 +94,7 @@ ubuntu_mate_bnt.addEventListener("click", () => {
     else {
         text_containers[2].style = "display: none;";
         text_containers[5].style = "display: none;";
-        texts.innerHTML = "A Raspberry Pi egy kis méretű számítógép, amelyet általában a Linux alapú Raspbian operációs rendszerrel használnak. Azonban a Windows IoT (Internet of Things) operációs rendszer is támogatja a Raspberry Pi-t, és lehetővé teszi a számítógép alkalmazásait és eszközeit az IoT-rendszerbe való integrálását.";
+        texts.innerHTML = "A Raspberry Pi egy kis méretű számítógép, amelyet általában a Linux alapú Raspbian operációs rendszerrel használnak. Azonban a Risc OS (Internet of Things) operációs rendszer is támogatja a Raspberry Pi-t, és lehetővé teszi a számítógép alkalmazásait és eszközeit az IoT-rendszerbe való integrálását.";
     }
 
     if (ubuntu_mate_bnt.innerHTML == ubuntu_mate_txt) {
@@ -108,14 +108,14 @@ ubuntu_mate_bnt.addEventListener("click", () => {
     }
 });
 
-// windows IoT
+// Risc OS
 windows_iot_btn.addEventListener("click", () => {
     if (windows_iot_btn.innerHTML == windows_txt) {
         mid.innerHTML = windows_txt;
         ubuntu_btn.innerHTML = "Előnyök";
         windows_iot_btn.innerHTML = "Hátrányok";
 
-        texts.innerHTML = "A Raspberry Pi egy kis méretű számítógép, amelyet általában a Linux alapú Raspbian operációs rendszerrel használnak. Azonban a Windows IoT (Internet of Things) operációs rendszer is támogatja a Raspberry Pi-t, és lehetővé teszi a számítógép alkalmazásait és eszközeit az IoT-rendszerbe való integrálását.";
+        texts.innerHTML = "A Risc OS Pi operációs rendszer egy könnyű, gyors és hatékony rendszer, kifejezetten a Raspberry Pi platformra tervezve. Egy érdekes lehetőség a felhasználók számára, akik alternatívát keresnek a hagyományos operációs rendszerekhez képest.";
 
         mid.style = "color: #FF99FF;";
     }
