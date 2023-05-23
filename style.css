@@ -9,16 +9,16 @@
 
 body {
     margin-top: 1vw;
-    background-image: linear-gradient(to right, #80b2ef, #b569b1);
-    /* background-image: url("pics/background.webp"); */
-
+    background-image: linear-gradient(to right, #CC2b5e, #7b28db);
+    /* background-image: linear-gradient(to right, ); */
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
+    color: white;
 }
 
 .line {
-  color:  black;
+  color:  white;
   cursor: default;
   position: relative;
   transition: all 0.5s ease-in;
@@ -147,7 +147,7 @@ img{
 }
 
 #creators_box:hover {
-  color: black;
+  color: white;
 }
 .back{
   border: none;
@@ -180,9 +180,8 @@ img{
 }
 
 #context {
-  border: 2px solid #FF99FF;
+  border: 2px solid white;
   border-radius: 10px;
-  box-shadow: 10px 10px 10px #FF99FF;
   max-width: 50%;
   margin: auto;
 }
@@ -196,7 +195,7 @@ img{
 }
 
 #teszt_eredmeny_gomb_ubuntu_elony, #teszt_eredmeny_gomb_windows_elony, #ubuntu_mate_elonyok_gomb {
-  color: #FF99FF;
+  color: green;
   background-color: rgba(0,0,0,0);
   transition: all 0.8s linear;
   cursor: pointer;
@@ -209,7 +208,7 @@ img{
 }
 
 #teszt_eredmeny_gomb_ubuntu_hatrany, #teszt_eredmeny_gomb_windows_elony, #teszt_eredmeny_gomb_windows_hatrany, #ubuntu_mate_gomb_hatrany {
-  color:#FF99FF;
+  color:crimson;
   background-color: rgba(0,0,0,0);
   transition: all 0.8s linear;
   cursor: pointer;
@@ -239,6 +238,10 @@ img{
 #windows_teszt_elony {
   display: none;
   animation: fadein 2s;
+}
+
+#title {
+  text-shadow: 3px 3px 3px wheat;
 }
 
 @keyframes fadein {
