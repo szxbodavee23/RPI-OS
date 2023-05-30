@@ -121,7 +121,7 @@ windows_iot_btn.addEventListener("click", () => {
         ubuntu_btn.innerHTML = "Előnyök";
         windows_iot_btn.innerHTML = "Hátrányok";
 
-        texts.innerHTML = "Chrome OS alapveto ismertetok";
+        texts.innerHTML = "A Chrome OS egy könnyűsúlyú, webalapú operációs rendszer, amelyet eredetileg a Google fejlesztett ki. Alapvetően a Google Chrome böngészőre épül, és célja a gyors, biztonságos és egyszerű használat a webes alkalmazások és szolgáltatások számára. A Chrome OS-Raspberry Pi kombináció előnye, hogy gyors és egyszerű hozzáférést biztosít a webes alkalmazásokhoz és szolgáltatásokhoz, mint például a Google Drive, a Google Docs és a Gmail. Emellett a Chrome OS automatikusan frissül, így mindig a legújabb biztonsági frissítésekkel és fejlesztésekkel rendelkezik.";
 
         mid.style = "color: #0393D9;"; // HERE
         contx.style = "border: 2px solid #0393d9";

@@ -115,13 +115,40 @@
                 <div id="windows_elonyok" class="txt_container mid_section fading">
                     <h2 style="color: green">Előnyök</h2>
                     <p>
-                        Chrome OS elonyok
+                        A Chrome OS az eddig tesztelt rendszerek közül a legstabilabb, leggyorsabb és legmegbízhatóbb.
+                        Mind az energia felhasználása és a memória igénye nagyon alacsonynak bizonyult, és így az eddigiekkel ellentétben 
+                        pozitív élmény ennek az OS-nek a használata. Az alacsony gépigény de mégis magas használhatóság mind munkára mind mindennapi használatra 
+                        megfelelő.
                     </p>
 
                     <button id="teszt_eredmeny_gomb_windows_elony"><h2 style="color: green;">Teszt Eredmények</h2></button>
                     <div id="windows_teszt_elony">
                         <p>
-                            Chrome OS teszteredmenyek elonyok
+                            A már említett alacsony gépigény a memória használatban is megmutatkozik.
+                            Maga a rendszer sem foglal sok helyet az SD kártyán, bár az általunk használt kártya éppen elegendőnek bizonyult,
+                            ez nagyobb háttértárral kiküszöbölhető.
+                        </p>
+                        <p style="color: green; background-color: white;">
+                            A "top" parancs lefutattása utáni eredmények alább láthatóak:
+                        </p>
+                        <a href="pics/chromeOS1.png"><img src="pics/chromeOS1.png" alt="" style="width: 100%;"></a>
+                        <p style="color: green; background-color: white;">
+                            A "free -m" parancs lefutattása utáni eredmények a memória használattal kapcsolatban az alábbiak:
+                        </p>
+                        <a href="pics/chromeOS2.png"><img src="pics/chromeOS2.png" alt="" style="width: 100%;"></a>
+                        <p style="color: green; background-color: white;">
+                            Az alacsony gépigény mellett egy minimalista, egyszerű, letisztult megjelenést kapunk, melyet ízlésünk szerint
+                            testrteszabhatunk.
+                        </p>
+                        <a href="pics/chromeOS3.jpg"><img src="pics/chromeOS3.jpg" alt="" style="width: 100%;"></a>
+                        <p style="color: green; background-color: white;">
+                            A testreszabhatóság, egyszerű használatnak köszönhetően megszűnik a kompromisszum érzése, és egy jól futó, 
+                            jól használható rendszert kapunk.
+                        </p>
+                        <a href="pics/chromeOS4.jpg"><img src="pics/chromeOS4.jpg" alt="" style="width: 100%;"></a>
+                        <p style="color: green; background-color: white;">
+                            A Chrome OS könnyen fut ezen a minimális hardware-en, kompromisszumok nélkül.
+                            Programok futtatása esetén is stabil és jól működő marad.
                         </p>
                     </div>
                 </div>
@@ -207,20 +234,33 @@
                     <p>
                         <h2 style="color: crimson">Hátrányok</h2>
                         <p>
-                            Chrome OS hatranyok
+                            Egyik legnagyobb hátránya a rendszernek a vendégfelhasználói felület, illetve annak használhatósága.
+                            Tapasztalataink alapján kiderült, hogy ez lassabb és egyben sokkal több hibát tartalmaz, mintha bejelentkeztünk volna
+                            egy google fiókkal. A hibákhoz sorolható, hogy a rendszer többször is vibrált.
                         </p>
                     </p>
 
                     <button id="teszt_eredmeny_gomb_windows_hatrany"><h2>Teszt Eredmények</h2></button>
                     <div id="windows_teszt_hatrany">
-                        <p>
-                            Chrome OS teszteredmenyek hatranyok
+                        <p style="color: crimson; background-color: black;">
+                            A már említett screen tearing vendégfelhasználóként jön elő, mint egy eléggé szembetűnő probléma.
+                            Ezzel együtt szintén problémaként merül fel a felhasználóbevitel nem megfelelő működése, ennélfogva a jelenségről képernyőkép sem 
+                            készült.
+                        </p>
+
+                        <p style="color: crimson; background-color: black;">
+                            Mindezek mellett súlyos problémaként merült még fel a képernyő vibrálása is.
+                        </p>
+
+                        <p style="color: crimson; background-color: black;">
+                            Screenshot-ok hiányában screen tearing-re egy példa a Portal című játékból:
+                        </p>
+                        <a href="pics/st.jpg"><img src="pics/st.jpg" alt="" style="width: 100%;"></a>
+                        <p style="color: crimson; background-color: black;">
+                            Azonban ezeken kívül más súlyosabb problémával nem talalkoztunk.
                         </p>
                     </div>
                 </div>
-
-                
-
 
                 <button id="vissza" class="back line">Vissza</button>
             </div>
@@ -229,7 +269,18 @@
             <br>
             <div id="creators_box">
                 <img src="pics/logo2.png" alt="Logo" class="logo grow" id="logo">
-                <p class="creators">&copy;Készítette: Bétéri Gábor, Hansághy Bence, Kerekes Dominik, Szabó Dávid, Szántó Dávid</p>
+                <!-- <p class="creators">&copy;Készítette: Bétéri Gábor, Hansághy Bence, Kerekes Dominik, Szabó Dávid, Szántó Dávid</p> -->
+                <p class="creators" id="creatorsp">Készítette:</p>
+                <ul class="creators">
+                    <li>Bétéri Gábor</li>
+                    <li>Hansághy Bence</li>
+                    <li>Kerekes Dominik</li>
+                    <li>Szabó Dávid</li>
+                    <li>Szántó Dávid</li>
+                </ul>
+                <p>
+                    &copy;Minden jog fentartva
+                </p>
             </div>
         </footer>
         <script src="script.js"></script>

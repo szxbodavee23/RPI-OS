@@ -9,8 +9,12 @@
 
 body {
     margin-top: 1vw;
-    background-image: linear-gradient(to right, #CC2b5e, #7b28db);
-    /* background-image: linear-gradient(to right, ); */
+    /* background-image: linear-gradient(to right, #CC2b5e, #7b28db); */
+    background-image: url("pics/background2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -242,6 +246,12 @@ img{
 
 #title {
   text-shadow: 3px 3px 3px wheat;
+}
+
+ul {
+  max-width: 12%;
+  min-width: 10%;
+  margin: auto;
 }
 
 @keyframes fadein {
