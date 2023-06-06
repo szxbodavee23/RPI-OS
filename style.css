@@ -61,6 +61,15 @@ body {
 .raspberry:hover{
   filter: drop-shadow(0 0 0.75rem rgb(240, 133, 165));
 }
+.ubn:hover {
+  filter: drop-shadow(0 0 0.75rem orange);
+}
+.ubnMate:hover {
+  filter: drop-shadow(0 0 0.75rem green);
+}
+.chr:hover {
+  filter: drop-shadow(0 0 0.75rem blue);
+}
 .ubuntu{
   border: none;
   background-color: transparent;
@@ -171,7 +180,7 @@ img{
 }
 
 .raspberry:hover {
-  cursor: not-allowed;
+  cursor: default;
 }
 
 .mid_section {

@@ -33,6 +33,7 @@ back.addEventListener("click", () => {
     windows_iot_btn.innerHTML = windows_txt;
     texts.innerHTML = txt;
     ubuntu_mate_bnt.style = "color: white;";
+    document.querySelectorAll(".di").forEach(img => img.style = "display: inline; max-width: 15%; min-width: 10%;");
 
     for (let i = 0; i < text_containers.length; i++) {
         text_containers[i].style = "display: none";
@@ -64,9 +65,12 @@ ubuntu_btn.addEventListener("click", () => {
         texts.innerHTML = "Ha ismered az Ubuntu asztali környezetet a számítógépeden vagy laptopodon, akkor azt kell mondanom, hogy semmi sem változik, amikor az Ubuntu-t futtatod a Raspberry Pi-n. Valójában, ha főként otthoni irodai munkát végzel (dokumentumok írása, internetezés, videók nézése stb.), akkor akár a számítógépedet is kicserélheted egy Raspberry Pi-re, amely sok pénzt takaríthat meg az energia számládon. Az Ubuntu 20.10 azonos alkalmazásokat tartalmaz, mint az Ubuntu asztali környezete GNOME-alapokon, és még egy kis pluszt is kap, mivel a Raspberry Pi-hoz készült Ubuntu 20.10 egyedi válogatással rendelkezik az alapértelmezett háttérképek között, amelyek máshol nincsenek.";
         mid.style = "color: orange;"; // HERE
         contx.style = "border: 2px solid orange;";
+
+        document.querySelectorAll(".di").forEach(img => img.style = "display: none;");
     }
     else {
         texts.innerHTML = "";
+        document.querySelectorAll(".di").forEach(img => img.style = "display: none;");
 
         if (mid.innerHTML == ubuntu_txt) {
             $("ubuntu_elonyok").style = "display: block";
@@ -85,6 +89,7 @@ ubuntu_btn.addEventListener("click", () => {
 
 // ubuntu mate
 ubuntu_mate_bnt.addEventListener("click", () => {
+    document.querySelectorAll(".di").forEach(img => img.style = "display: none;");
     if (mid.innerHTML == ubuntu_txt) {
         text_containers[0].style = "display: none;";
         text_containers[3].style = "display: none;";
@@ -116,6 +121,7 @@ ubuntu_mate_bnt.addEventListener("click", () => {
 
 // Risc OS
 windows_iot_btn.addEventListener("click", () => {
+    document.querySelectorAll(".di").forEach(img => img.style = "display: none;");
     if (windows_iot_btn.innerHTML == windows_txt) {
         mid.innerHTML = windows_txt;
         ubuntu_btn.innerHTML = "Előnyök";
